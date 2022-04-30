@@ -27,7 +27,7 @@ html {
   justify-content: space-between;
   align-items: center;
   padding: 10px 70px;
-  background-color: #948771;
+  background-color: transparent;
 }
 
 .logo {
@@ -131,7 +131,7 @@ html {
 }
 
 .home-btn:hover {
-  background-color: blue;
+  background-color: #e9abb2;
 }
 
 /*=============== Features | Images ===============*/
