@@ -173,3 +173,7 @@ footer a {
   color: black;
   font-size: 20px;
 }
+
+svg {
+  display: block;
+}
