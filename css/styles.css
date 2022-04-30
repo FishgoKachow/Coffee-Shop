@@ -9,7 +9,7 @@ body {
   font-family: "Raleway", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #fff1f7;
+  background-color: #FFFFFF;
 }
 
 html {
@@ -100,7 +100,7 @@ feature {
 
 .feature h2 {
   font-size: 40px;
-  color: black;
+  color: white;
 }
 
 .feature p {
@@ -153,7 +153,7 @@ feature {
 }
 
 footer {
-  background-color: #948771;
+  background-color: #62575b;
   padding: 25px 35px;
   font-size: medium;
   justify-content: center;
@@ -163,14 +163,14 @@ footer {
 
 footer h1 {
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 35px;
   letter-spacing: 2px;
 }
 
 footer a {
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 20px;
 }
 
