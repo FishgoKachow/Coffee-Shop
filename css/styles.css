@@ -59,7 +59,7 @@ html {
 /*=============== Landing Page ===============*/
 
 .console-container {
-  font-size: 50px;
+  font-size: 40px;
   display: block;
   color: black;
   margin: auto;
@@ -86,11 +86,6 @@ html {
 .home-subheader {
   margin-left: 0;
   font-size: 30px;
-}
-
-.home-description {
-  margin-right: 150px;
-  font-size: 1.2rem;
 }
 
 .home-img img {
