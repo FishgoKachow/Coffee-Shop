@@ -32,49 +32,61 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Coffee Shop</title>
+    <title>Odds & Ends</title>
   </head>
   <body>
-    <!--TopNav-->
-    <div class="topnav">
-      <a href="index.html">Home</a>
-      <a href="menu.html">Menu</a>
-      <a href="#here">Our Story</a>
-      <a href="locations.html">Locations</a>
+    <!--Navbar-->
+    <header class="navhead">
+      <h1 class="logo">Odds & Ends</h1>
+      <nav>
+        <ul class="nav-area top-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="#here">Our Story</a></li>
+          <li><a href="locations.html">Locations</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--Navbar end-->
+    <!-- home -->
+    <div class="wrapper">
+      <div class="home" id="home">
+        <div class="home-text">
+          <div class="console-container">
+            <span id="text"></span>
+            <div class="console-underscore" id="console">&#95;</div>
+          </div>
+          <h3 class="home-subheader">Ella please type this here</h3>
+          <p class="home-description">
+            Ella please type something here please gawd I'm illerate please meow
+          </p>
+          <a href="" class="home-btn">Order Now!</a>
+        </div>
+        <div class="home-img">
+          <img
+            src="./assets/images/cofeegif.gif"
+            alt="coffeegif"
+            style="width: 90%; height: 20%"
+          />
+        </div>
+      </div>
     </div>
-    <!--TopNav-->
-    <br />
-    <!--Moving Pic-->
-    <div class="pic">
-      <img
-        src="./assets/images/cofeegif.gif"
-        class="amogus"
-        alt="coffeegif"
-        style="width: 25%; height: 20%"
-      />
-    </div>
-    <!--Moving Pic-->
-    <!--Header Text-->
-    <div class="console-container">
-      <span id="text"></span>
-      <div class="console-underscore" id="console">&#95;</div>
-    </div>
-    <!--Header Text-->
+    <!-- home end -->
     <!--Wavy-->
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 1440 320"
-      style="background-color: #8D7D83"
+      style="background-color: #8d7d83"
     >
       <path
-        fill="#988a8f" 
+        fill="#988a8f"
         fill-opacity="1"
         d="M0,192L48,192C96,192,192,192,288,165.3C384,139,480,85,576,85.3C672,85,768,139,864,170.7C960,203,1056,213,1152,208C1248,203,1344,181,1392,170.7L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
       ></path>
     </svg>
-    <!--Wavy-->
+    <!--Wavy end-->
     <!--Features Panel #1-->
-    <section class="feature" style="background-color: #8D7D83">
+    <section class="feature" style="background-color: #8d7d83">
       <div class="feature-wrapper container" id="here">
         <div class="feature-text">
           <p class="small">Our Shop:</p>
@@ -97,7 +109,7 @@
         </div>
       </div>
     </section>
-    <!--Features Panel #1-->
+    <!--Features Panel #1 end-->
     <!--Features Panel #2-->
     <section class="feature" style="background-color: #7e7075">
       <div class="feature-wrapper container">
@@ -121,7 +133,7 @@
         </div>
       </div>
     </section>
-    <!--Features Panel #2-->
+    <!--Features Panel #2 end-->
     <!--Features Panel #3-->
     <section class="feature" style="background-color: #706468">
       <div class="feature-wrapper container">
@@ -149,7 +161,7 @@
         </div>
       </div>
     </section>
-    <!--Features Panel #3-->
+    <!--Features Panel #3 end-->
     <!--Wavy-->
     <svg
       style="background-color: #706468"
@@ -162,12 +174,12 @@
         d="M0,64L48,85.3C96,107,192,149,288,149.3C384,149,480,107,576,96C672,85,768,107,864,112C960,117,1056,107,1152,90.7C1248,75,1344,53,1392,42.7L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
       ></path>
     </svg>
-    <!--Wavy-->
+    <!--Wavy end-->
     <!--Footer-->
     <footer class="footer bg-dark py-5">
       <div class="container grid grid-3">
         <div>
-          <h1>Odds & Ends Cafe & Bakery</h1>
+          <h1>Odds & Ends | Cafe & Bakery</h1>
           <p>Copyright &copy; 2022</p>
         </div>
         <nav>
@@ -180,7 +192,7 @@
         </nav>
       </div>
     </footer>
-    <!--Footer-->
+    <!--Footer end-->
     <script src="./js/console.js"></script>
   </body>
 </html>

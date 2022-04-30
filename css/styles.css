@@ -9,7 +9,7 @@ body {
   font-family: "Raleway", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #FFFFFF;
+  background-color: #988a8f;
 }
 
 html {
@@ -17,32 +17,49 @@ html {
 }
 /*=============== TopNav ===============*/
 
-.topnav {
-  background-color: #948771;
+.navhead {
+  height: 80px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
   display: flex;
-  justify-content: center;
-  padding-inline-end: 50px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 70px;
+  background-color: #948771;
 }
 
-.topnav a {
-  color: white;
-  font-size: larger;
-  text-decoration: none;
-  margin-left: 40px;
-  padding: 20px 20px;
-}
-
-.topnav a:hover {
-  background-color: #fff1f7;
+.logo {
+  cursor: pointer;
   color: black;
 }
 
-/*=============== Header ===============*/
+.nav-area {
+  list-style: none;
+}
+
+.nav-area li {
+  display: inline-block;
+  padding: 0 15px;
+  text-transform: uppercase;
+}
+
+.nav-area li a {
+  transition: 0.3s;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav-area li a:hover {
+  color: #fff1f7;
+}
+
+/*=============== Landing Page ===============*/
 
 .console-container {
-  font-size: 4em;
-  text-align: center;
-  height: 200px;
+  font-size: 50px;
   display: block;
   color: black;
   margin: auto;
@@ -53,12 +70,30 @@ html {
   position: relative;
 }
 
-/*=============== Moving Pic ===============*/
-
-.pic {
-  text-align: center;
+.wrapper {
+  margin: 100px auto;
+  max-width: 1100px;
 }
-.amogus {
+
+.home {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-subheader {
+  margin-left: 0;
+  font-size: 30px;
+}
+
+.home-description {
+  margin-right: 150px;
+  font-size: 1.2rem;
+}
+
+.home-img img {
   clip-path: circle(45%);
   animation: float 3s ease-in-out infinite;
 }
@@ -78,6 +113,25 @@ html {
     box-shadow: 0px 15px 0px rgba(0, 0, 0, 0.6);
     transform: translatey(0px);
   }
+}
+
+.home-btn {
+  margin-top: 25px;
+  width: auto;
+  padding: 10px 60px;
+  border-radius: 50px;
+  border: none;
+  background: red;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  cursor: pointer;
+  transition: 0.35s;
+  text-decoration: none;
+}
+
+.home-btn:hover {
+  background-color: blue;
 }
 
 /*=============== Features | Images ===============*/
@@ -100,19 +154,19 @@ feature {
 
 .feature h2 {
   font-size: 40px;
-  color: white;
+  color: black;
 }
 
 .feature p {
   margin: 20px 0;
   size: 20px;
-  color: #555;
+  color: black;
   font-weight: bold;
 }
 
 .feature small {
   font-size: 1.6rem;
-  color: #666;
+  color: black;
   font-weight: 600;
 }
 
@@ -163,15 +217,20 @@ footer {
 
 footer h1 {
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 35px;
   letter-spacing: 2px;
 }
 
 footer a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 20px;
+}
+
+footer p {
+  text-decoration: none;
+  color: black;
 }
 
 svg {
