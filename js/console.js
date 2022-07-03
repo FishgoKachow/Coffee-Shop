@@ -1,9 +1,9 @@
 // function([string1, string2],target id,[color1,color2])
-consoleText(["Odds and Ends Cafe", "From our hearts to yours", "Made with Love."], "text", [
-  "Welcome to the shop!",
-  "Ella so cute",
-  "Toadgemaru",
-]);
+consoleText(
+  ["Odds and Ends Cafe", "From our hearts to yours", "Made with Love."],
+  "text",
+  ["black", "pink", "white"]
+);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ["#fff"];
