@@ -294,9 +294,9 @@ svg {
 
   .home-img img {
     clip-path: circle(45%);
-    animation: float 3s ease-in-out infinite;
     margin-top: 50px;
     width: 100%;
+    animation: step-end;
   }
 
   .container {
